@@ -7,21 +7,24 @@
 //
 
 #import "NPViewController.h"
+#import <NPPencil/NPPencilCanvas.h>
 
 @interface NPViewController ()
+
+@property (nonatomic, strong) NPPencilCanvas *canvas;
 
 @end
 
 @implementation NPViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _canvas = [[NPPencilCanvas alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:_canvas];
+    _canvas.material = [NPPencilMaterial materialWithColor:[UIColor redColor] bodyWeight:10.f shadowColor:[UIColor blueColor] shadowWeight:10.0];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
