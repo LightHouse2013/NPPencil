@@ -1,5 +1,5 @@
 PODS:
-  - NPPencil (0.1.0)
+  - NPPencil (0.0.1)
 
 DEPENDENCIES:
   - NPPencil (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NPPencil: 17ef4076d5e158e20b959fd23874606823c381c9
+  NPPencil: 3e5e1b88385e6830f136ca799576dfd5262f08e2
 
 PODFILE CHECKSUM: aa989ffb858dc51e47862043b188176ca1e2180d
 
