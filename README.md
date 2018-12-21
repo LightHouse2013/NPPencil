@@ -22,7 +22,7 @@ pod 'NPPencil'
 
 ## Author
 
-DarkKnightOne, zhangwenhai@bytedance.com
+DarkKnightOne, zhangwenhai1989@gmail.com
 
 ## License
 
