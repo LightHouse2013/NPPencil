@@ -9,6 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```
+// 1. import header
+#include <NPPencil/NPPencilCanvas.h>
+
+// 2. add to super view like a view
+NPPencilCanvas *canvas = [[NPPencilCanvas alloc] initWithFrame:self.view.bounds];
+[self.view addSubview:canvas];
+
+// 3. set pencil color and width and so on.
+canvas.material = [NPPencilMaterial materialWithColor:[UIColor blueColor] bodyWeight:10.0f shadowColor:[UIColor greenColor] shadowWeight:5.0f];
+```
+
 ## Requirements
 
 ## Installation
