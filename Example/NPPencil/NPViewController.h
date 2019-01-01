@@ -2,8 +2,8 @@
 //  NPViewController.h
 //  NPPencil
 //
-//  Created by DarkKnightOne on 12/15/2018.
-//  Copyright (c) 2018 DarkKnightOne. All rights reserved.
+//  Created by DarkKnightOne on 01/01/2019.
+//  Copyright (c) 2019 DarkKnightOne. All rights reserved.
 //
 
 @import UIKit;

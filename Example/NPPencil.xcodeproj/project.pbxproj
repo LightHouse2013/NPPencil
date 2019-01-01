@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B84A551F1896BBD6190D58B /* Pods_NPPencil_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937013273FEDA9882E1BDECD /* Pods_NPPencil_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		81309DE0EE785E35EA7D0894 /* Pods_NPPencil_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18A2E768A017A0640F2327F /* Pods_NPPencil_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D6FBE4836A71A5327466A6E1 /* Pods_NPPencil_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB19A255DBFA90F0F042C80D /* Pods_NPPencil_Example.framework */; };
+		EEB9E31772F0EE7C80169CF8 /* Pods_NPPencil_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09790F20332AC862887A4A3 /* Pods_NPPencil_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09EF536B02BCCB351101C391 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		0A7D51023C4FBA193934B649 /* NPPencil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NPPencil.podspec; path = ../NPPencil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		134B5FBE0A2B8EF2EDD158A6 /* Pods-NPPencil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Tests/Pods-NPPencil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1370F002F8BBE4ECD9F9EFC6 /* Pods-NPPencil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Tests/Pods-NPPencil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D0CD76F381666C4EC91FC22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		37E3265F7C448DFB02287FD9 /* Pods-NPPencil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		171E0C77141CC6ADB54820AC /* Pods-NPPencil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Tests/Pods-NPPencil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1A95AA845742A6D5B646C72A /* Pods-NPPencil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Tests/Pods-NPPencil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E940686ECC5B0F3191F5035 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		489BD713E03E1AAD37FA3FD9 /* NPPencil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NPPencil.podspec; path = ../NPPencil.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NPPencil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPPencil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,14 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72CBD8457B597392BE4BB8B8 /* Pods-NPPencil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NPPencil_Tests/Pods-NPPencil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B1918620FBAB8159EDA576A /* Pods-NPPencil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Example.debug.xcconfig"; path = "Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		763E5870284BDC98704BE61C /* Pods-NPPencil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		937013273FEDA9882E1BDECD /* Pods_NPPencil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NPPencil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB32BC496DDC0F1C294E94C7 /* Pods-NPPencil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Tests.release.xcconfig"; path = "Target Support Files/Pods-NPPencil_Tests/Pods-NPPencil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8BAFFE1D0AB46AE5D60C668 /* Pods-NPPencil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Example.release.xcconfig"; path = "Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F18A2E768A017A0640F2327F /* Pods_NPPencil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NPPencil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F69FF1C0C87A216B805BA2F7 /* Pods-NPPencil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A09790F20332AC862887A4A3 /* Pods_NPPencil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NPPencil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD49DC16979F2A710DC950C /* Pods-NPPencil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPPencil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D5C2FD905DB13B9076CF8B62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB19A255DBFA90F0F042C80D /* Pods_NPPencil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NPPencil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				81309DE0EE785E35EA7D0894 /* Pods_NPPencil_Example.framework in Frameworks */,
+				D6FBE4836A71A5327466A6E1 /* Pods_NPPencil_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3B84A551F1896BBD6190D58B /* Pods_NPPencil_Tests.framework in Frameworks */,
+				EEB9E31772F0EE7C80169CF8 /* Pods_NPPencil_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				D29327E53E6A44F47C6A00E3 /* Pods */,
+				B8FD32778ACF5A368990DD43 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F18A2E768A017A0640F2327F /* Pods_NPPencil_Example.framework */,
-				937013273FEDA9882E1BDECD /* Pods_NPPencil_Tests.framework */,
+				EB19A255DBFA90F0F042C80D /* Pods_NPPencil_Example.framework */,
+				A09790F20332AC862887A4A3 /* Pods_NPPencil_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,26 +178,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0A7D51023C4FBA193934B649 /* NPPencil.podspec */,
-				2D0CD76F381666C4EC91FC22 /* README.md */,
-				09EF536B02BCCB351101C391 /* LICENSE */,
+				489BD713E03E1AAD37FA3FD9 /* NPPencil.podspec */,
+				D5C2FD905DB13B9076CF8B62 /* README.md */,
+				1E940686ECC5B0F3191F5035 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		D29327E53E6A44F47C6A00E3 /* Pods */ = {
+		B8FD32778ACF5A368990DD43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B1918620FBAB8159EDA576A /* Pods-NPPencil_Example.debug.xcconfig */,
-				C8BAFFE1D0AB46AE5D60C668 /* Pods-NPPencil_Example.release.xcconfig */,
-				72CBD8457B597392BE4BB8B8 /* Pods-NPPencil_Tests.debug.xcconfig */,
-				AB32BC496DDC0F1C294E94C7 /* Pods-NPPencil_Tests.release.xcconfig */,
-				37E3265F7C448DFB02287FD9 /* Pods-NPPencil_Example.debug.xcconfig */,
-				F69FF1C0C87A216B805BA2F7 /* Pods-NPPencil_Example.release.xcconfig */,
-				1370F002F8BBE4ECD9F9EFC6 /* Pods-NPPencil_Tests.debug.xcconfig */,
-				134B5FBE0A2B8EF2EDD158A6 /* Pods-NPPencil_Tests.release.xcconfig */,
+				AAD49DC16979F2A710DC950C /* Pods-NPPencil_Example.debug.xcconfig */,
+				763E5870284BDC98704BE61C /* Pods-NPPencil_Example.release.xcconfig */,
+				1A95AA845742A6D5B646C72A /* Pods-NPPencil_Tests.debug.xcconfig */,
+				171E0C77141CC6ADB54820AC /* Pods-NPPencil_Tests.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,11 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "NPPencil_Example" */;
 			buildPhases = (
-				F0D42D40F4E656D76724A685 /* [CP] Check Pods Manifest.lock */,
+				08EFC71112C4909F791D4909 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3A9CEFAEECF06F83441F57E8 /* [CP] Embed Pods Frameworks */,
+				9DC937B15D4CCEE9DA597139 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "NPPencil_Tests" */;
 			buildPhases = (
-				A419048CF1272822AD659B69 /* [CP] Check Pods Manifest.lock */,
+				45F56B2EA59482298920A299 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -252,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NP;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DarkKnightOne;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -302,7 +294,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A9CEFAEECF06F83441F57E8 /* [CP] Embed Pods Frameworks */ = {
+		08EFC71112C4909F791D4909 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,21 +302,21 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NPPencil/NPPencil.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NPPencil.framework",
+				"$(DERIVED_FILE_DIR)/Pods-NPPencil_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A419048CF1272822AD659B69 /* [CP] Check Pods Manifest.lock */ = {
+		45F56B2EA59482298920A299 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,7 +338,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0D42D40F4E656D76724A685 /* [CP] Check Pods Manifest.lock */ = {
+		9DC937B15D4CCEE9DA597139 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,18 +346,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NPPencil/NPPencil.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NPPencil_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NPPencil.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NPPencil_Example/Pods-NPPencil_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -435,32 +427,19 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -488,31 +467,18 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -528,10 +494,9 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E3265F7C448DFB02287FD9 /* Pods-NPPencil_Example.debug.xcconfig */;
+			baseConfigurationReference = AAD49DC16979F2A710DC950C /* Pods-NPPencil_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NPPencil/NPPencil-Prefix.pch";
 				INFOPLIST_FILE = "NPPencil/NPPencil-Info.plist";
@@ -544,10 +509,9 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F69FF1C0C87A216B805BA2F7 /* Pods-NPPencil_Example.release.xcconfig */;
+			baseConfigurationReference = 763E5870284BDC98704BE61C /* Pods-NPPencil_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NPPencil/NPPencil-Prefix.pch";
 				INFOPLIST_FILE = "NPPencil/NPPencil-Info.plist";
@@ -560,7 +524,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1370F002F8BBE4ECD9F9EFC6 /* Pods-NPPencil_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1A95AA845742A6D5B646C72A /* Pods-NPPencil_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +548,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 134B5FBE0A2B8EF2EDD158A6 /* Pods-NPPencil_Tests.release.xcconfig */;
+			baseConfigurationReference = 171E0C77141CC6ADB54820AC /* Pods-NPPencil_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
