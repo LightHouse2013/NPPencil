@@ -21,6 +21,8 @@ NPPencilCanvas *canvas = [[NPPencilCanvas alloc] initWithFrame:self.view.bounds]
 canvas.material = [NPPencilMaterial materialWithColor:[UIColor blueColor] bodyWeight:10.0f shadowColor:[UIColor greenColor] shadowWeight:5.0f];
 ```
 
+![snap shot](https://github.com/DarkKnightOne/NPPencil/blob/master/snapshot.png)
+
 ## Requirements
 
 ## Installation
